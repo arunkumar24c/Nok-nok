@@ -3,8 +3,8 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className="">
-      <div className="brand-container">
-        <div className="flex flex-col justify-center items-center text-center gap-5 px-5 py-10">
+      <div className="brand-container py-16">
+        <div className="flex flex-col justify-center items-center text-center gap-5 px-5 py-16">
           <h1 className="leading-normal text-[1.6rem] xl:text-[5rem] lg:text-[4rem] md:text-[3rem] text-black">
             Make your knowledge <br />
             <span className="text-secondary">wonderful</span>
