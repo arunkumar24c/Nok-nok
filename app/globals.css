@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  .brand-container {
+    @apply container mx-auto px-5 md:px-0 lg:px-0 xl:px-0 py-5;
+  }
+
+  h1 {
+    @apply text-[22px] font-bold;
+  }
+  h2 {
+    @apply text-[18px] font-bold;
+  }
+  h3 {
+    @apply text-xl font-bold;
+  }
+  h4 {
+    @apply text-lg font-bold;
+  }
+  h5 {
+    @apply text-sm font-bold;
+  }
+  p {
+    @apply text-[16px] font-medium;
+  }
+
+}
