@@ -32,24 +32,30 @@ function App() {
           }`}
         >
           <div className="text-[18px] font-bold lg:flex-grow gap-5">
-            <a
-              href="#"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
-            >
-              Give Interview
-            </a>
-            <a
-              href="#"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
-            >
-              Media House
-            </a>
-            <a
-              href="#"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
-            >
-              Contact Us
-            </a>
+            <Link href="/getinterview">
+              <p
+                href="#"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
+              >
+                Give Interview
+              </p>{" "}
+            </Link>
+            <Link href="/media">
+              <p
+                href="#"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
+              >
+                Media House
+              </p>
+            </Link>
+            <Link href="/contact">
+              <p
+                href="#"
+                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
+              >
+                Contact Us
+              </p>
+            </Link>
           </div>
           <div className="py-2">
             <Link href="/Login">

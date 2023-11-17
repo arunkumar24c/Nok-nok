@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Interviwer = () => {
@@ -17,9 +18,11 @@ const Interviwer = () => {
           </div>
           {/* 2 */}
           <div className="">
-            <h1 className="text-secondary cursor-pointer text-right hover:text-[24px] ">
-              View all
-            </h1>
+            <Link href="/Tranding">
+              <h1 className="text-secondary cursor-pointer text-right hover:text-[24px] ">
+                View all
+              </h1>
+            </Link>
             <div className="flex flex-col xl:flex-row lg:flex-row justify-between items-center gap-8 py-10">
               {/* 1 */}
 
