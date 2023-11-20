@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import React, { useState } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
@@ -33,26 +33,17 @@ function App() {
         >
           <div className="text-[18px] font-bold lg:flex-grow gap-5">
             <Link href="/getinterview">
-              <p
-                
-                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
-              >
+              <p className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8">
                 Give Interview
               </p>{" "}
             </Link>
             <Link href="/media">
-              <p
-                
-                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
-              >
+              <p className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8">
                 Media House
               </p>
             </Link>
             <Link href="/contact">
-              <p
-                
-                className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
-              >
+              <p className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8">
                 Contact Us
               </p>
             </Link>
