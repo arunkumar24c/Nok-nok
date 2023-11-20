@@ -77,7 +77,7 @@ const page = () => {
           {/* right */}
           <div className=" w-full xl:w-1/2 lg:w-1/2 md:w-full ">
             <h1 className="text-center text-secondary pt-4 text-[30px]">
-              Contact
+              Contact Us
             </h1>
             <form
               onSubmit={handleSubmit(onSubmit)}
