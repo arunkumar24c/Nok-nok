@@ -34,7 +34,7 @@ function App() {
           <div className="text-[18px] font-bold lg:flex-grow gap-5">
             <Link href="/getinterview">
               <p
-                href="#"
+                
                 className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
               >
                 Give Interview
@@ -42,7 +42,7 @@ function App() {
             </Link>
             <Link href="/media">
               <p
-                href="#"
+                
                 className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
               >
                 Media House
@@ -50,7 +50,7 @@ function App() {
             </Link>
             <Link href="/contact">
               <p
-                href="#"
+                
                 className="block mt-4 lg:inline-block lg:mt-0 text-white mr-8"
               >
                 Contact Us
