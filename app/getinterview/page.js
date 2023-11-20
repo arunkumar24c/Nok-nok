@@ -73,17 +73,17 @@ const page = () => {
               <h2 className="flex gap-2 items-center">
                 Read Description{" "}
                 <span
-                  className="cursor-pointer"
+                  className="cursor-pointer border border-[black] hover:border-2 hover:border-black"
                   onClick={toggleShowFull}
                   style={{
                     transition: "transform 0.3s ease",
                     transform: arrowRotate ? "rotate(180deg)" : "rotate(0deg)",
                   }}
                 >
-                  <MdOutlineKeyboardArrowDown />
+                  <MdOutlineKeyboardArrowDown size={25} />
                 </span>
               </h2>
-              <p>{displayContent}</p>
+              <p className="py-5">{displayContent}</p>
             </div>
           </div>
           {/* right container */}
